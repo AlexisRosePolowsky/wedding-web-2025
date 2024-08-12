@@ -475,11 +475,14 @@ header a.login {
 }
 
 header .logo {
-    display: inline-block
+    display: inline-block;
+
+
 }
 
 header .logo img {
-    height: 19px
+    height: 45px;
+    /* background: url("") center center; */
 }
 
 header ul.primary-nav {
