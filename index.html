@@ -64,8 +64,7 @@
         <section class="navigation">
             <header>
                 <div class="header-content">
-                    <div class="logo"><a href="#"><img src="./pictures/A&R logo.png"
-                                alt="Logo"></a>
+                    <div class="logo"><a href="#"><img src="./pictures/A&R logo.png" alt="Logo"></a>
                     </div>
                     <div class=" header-nav">
                         <nav>
@@ -143,16 +142,18 @@
                         never
                         missed a class after that. After a good few months I finally plucked up the courage to ask
                         her out
-                        and the rest is history :)
+                        and the rest is history
                     </p>
                 </div>
                 <div class="col-md-3 hidden-sm hidden-xs"><img src="img/DSD_0214.jpg" class="wp2"></div>
             </div>
             <div class="row">
-                <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/IMG_2317.jpg"
-                        class="wp8"></div>
-                <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/DSD_0214.jpg"
-                        class="wp9"></div>
+                <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="./pictures/ALEXIS.png"
+                        class="wp8">
+                </div>
+                <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="./pictures/RANDY.png"
+                        class="wp9">
+                </div>
             </div>
         </div>
     </section>
@@ -459,8 +460,13 @@
                     <h3>What are you waiting for?</h3>
                     <p>We would greatly appreciate if you could RSVP before 1st of November '17</p>
                     <form id="rsvp-form" class="rsvp-form gform"
-                        action="https://script.google.com/macros/s/AKfycbzXwj1AHIhvJ_2SgRv_pR0DCl4MJ0ch4x08IuFQa0rEtUshq9JeMbi4KKXAEVnXIGJxOw/exec"
+                        action="https://script.google.com/macros/s/AKfycbxbWq-S-Y0rT5Yc9W9GH1XuUCmIfRl5G-MN4T5FAAZF9Aen2vAP-GrWDwgmD6BfKLbfCA/exec"
                         method="POST">
+                        <div style="display:none" class="thankyou_message">
+                            <!-- You can customize the thankyou message by editing the code below -->
+                            <h2><em>Thanks</em> for contacting us! We will get back to you soon!
+                            </h2>
+                        </div>
                         <div class="row">
                             <div class="col-md-6 col-sm-6">
                                 <div class="form-input-group">
@@ -538,6 +544,8 @@
         ga('create', 'UA-46465113-4', 'auto');
         ga('send', 'pageview');
     </script>
+    <script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
+
 </body>
 
 </html>
