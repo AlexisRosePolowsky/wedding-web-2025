@@ -9,5 +9,8 @@
     },
     "[css]": {
         "editor.defaultFormatter": "ms-vsliveshare.vsliveshare"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "ms-vsliveshare.vsliveshare"
     }
 }

@@ -408,7 +408,7 @@ section .header {
 
 .hero {
     min-height: 750px;
-    background: url("../pictures/MainPagePic.JPEG") center center;
+    background: url("../pictures/RandyAlexis.JPEG") center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -973,6 +973,18 @@ header .member-actions {
 
 .rsvp {
     padding-bottom: 140px
+
+}
+
+.form-input-group-select{
+    display:flex;
+
+}
+
+.gform-select{
+    border:none;
+    background-color: transparent;
+    margin-left: auto;
 }
 
 .rsvp .rsvp-form .rsvp-btn {
@@ -1010,10 +1022,10 @@ header .member-actions {
     transform: translateY(-50%)
 }
 
-.rsvp .rsvp-form .form-input-group i.fa-user,
+.rsvp .rsvp-form .form-input-group i.fa-trophy,
 .rsvp .rsvp-form .form-input-group i.fa-users,
 .rsvp .rsvp-form .form-input-group i.fa-envelope,
-.rsvp .rsvp-form .form-input-group .fa-key {
+.rsvp .rsvp-form .form-input-group .fa-utensils {
     font-size: 14px;
     position: absolute;
     top: 50%;
